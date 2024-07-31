@@ -1,0 +1,1027 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            rel="shortcut icon"
+            href="img/heart_177043.png"
+            type="image/x-icon"
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="index.css" />
+        <title>For A Special Person</title>
+    </head>
+    <body>
+        <!-- // Validation -->
+        <div class="questionContainer">
+            <div class="questionWrapper">
+                <img
+                    src="img/hello-kitty.png"
+                    alt="hello kitty"
+                    title="hello kitty"
+                    class="helloKitty"
+                />
+                <form
+                    onsubmit="event.preventDefault(); validateMyFormName();"
+                    class="formName"
+                >
+                    <label for="inputName"> What is Your Name ? </label>
+                    <div class="inputNameContainer">
+                        <input
+                            type="text"
+                            id="inputName"
+                            name="First Name"
+                            placeholder="Your Name ...."
+                            autocomplete="off"
+                        />
+                        <div class="errorName displayNone">
+                            <i
+                                class="fa-solid fa-circle-exclamation"
+                                aria-hidden="true"
+                            ></i>
+                            <p class="wrongName">
+                                You are not the right person
+                            </p>
+                        </div>
+                        <input
+                            type="submit"
+                            value="Enter"
+                            class="inputButton"
+                        />
+                    </div>
+                    <audio src="audio/audio.mp3" id="music"></audio>
+                </form>
+                <form
+                    onsubmit="event.preventDefault(); validateMyFormLove();"
+                    class="formLove displayNone"
+                >
+                    <label for="inputLove">Who Do You Love The Most ? </label>
+                    <div class="inputNameContainer">
+                        <input
+                            type="text"
+                            id="inputLove"
+                            name="Love"
+                            placeholder="Love Of You Life ...."
+                            autocomplete="off"
+                        />
+                        <div class="errorLove displayNone">
+                            <i class="fa-solid fa-heart-crack"></i>
+                            <p class="wrongLove">not the right person sadly</p>
+                        </div>
+                        <input
+                            type="submit"
+                            value="Enter"
+                            class="inputButton"
+                        />
+                    </div>
+                </form>
+            </div>
+        </div>
+        <!-- // Main -->
+        <main class="main bg">
+            <!-- // HERO Section -->
+            <section class="heroSection">
+                <!-- // Clouds -->
+                <img
+                    src="img/cloudface.png"
+                    alt="cute cloud"
+                    title="cloud"
+                    class="hero-cloud"
+                />
+                <img
+                    src="img/cloud.png"
+                    alt="cute cloud"
+                    title="cloud"
+                    class="hero-cloudface"
+                />
+                <!-- // Clouds End -->
+                <img
+                    src="img/bearwithflower.gif"
+                    alt="bear"
+                    title="cute bear"
+                    class="bear-flower"
+                />
+                <h1 class="heroHeading">Hey, Pookie Bear</h1>
+                <p>
+                    💕 We have been together since
+                    <span class="bold love"> Wednesday, 18 October 2023 </span>
+                    ❤️
+                </p>
+                <p>
+                    💗 We have been in love for
+                    <span class="bold love" id="timePassedText"> </span>
+                    and still going strong... 💝
+                </p>
+                <p>
+                    💞 Our 1 year anniversay will be
+                    <span class="bold love" id="timeLeft"> </span>
+                    later 💖
+                </p>
+            </section>
+            <!-- // WHAT I LIKE SECTION -->
+            <section class="likeSection">
+                <h1 class="likeHeading">Things I Love About You :</h1>
+                <img
+                    src="img/bear-kiss-bear-kisses.gif"
+                    alt="cute bears"
+                    title="cute bears"
+                    class="cute-bear-kiss"
+                />
+                <div class="likeList">
+                    <ul class="likeListUL">
+                        <li>
+                            I <span class="love">love</span> your beautiful
+                            smile.
+                        </li>
+                        <li>
+                            I <span class="love">love</span> your infectious
+                            laugh.
+                        </li>
+                        <li>
+                            I <span class="love">love</span> your unwavering
+                            support.
+                        </li>
+                        <li>
+                            I <span class="love">love</span> your intelligence
+                            and wit.
+                        </li>
+                        <li>
+                            I <span class="love">love</span> your unique sense
+                            of humor.
+                        </li>
+                        <li>
+                            I <span class="love">love</span> your attentive
+                            listening.
+                        </li>
+                        <li>
+                            I <span class="love">love</span> your caring nature.
+                        </li>
+                        <li>
+                            I <span class="love">love</span> your deep
+                            understanding.
+                        </li>
+                        <li>
+                            I <span class="love">love</span> your passion for
+                            life.
+                        </li>
+                        <li>
+                            I <span class="love">love</span> your creativity.
+                        </li>
+                        <li>
+                            I <span class="love">love</span> your resilience.
+                        </li>
+                        <li>
+                            I <span class="love">love</span> your nurturing
+                            spirit.
+                        </li>
+                        <li>
+                            I <span class="love">love</span> your adventurous
+                            soul.
+                        </li>
+                        <li>I <span class="love">love</span> your honesty.</li>
+                        <li>I <span class="love">love</span> your openness.</li>
+                        <li>
+                            I <span class="love">love</span> your beautiful
+                            voice.
+                        </li>
+                        <li>I <span class="love">love</span> your loyalty.</li>
+                        <li>
+                            I <span class="love">love</span> your thoughtful
+                            surprises.
+                        </li>
+                        <li>
+                            I <span class="love">love</span> your dedication.
+                        </li>
+                        <li>
+                            I <span class="love">love</span> your confidence.
+                        </li>
+                        <li>
+                            I <span class="love">love</span> your faithfulness.
+                        </li>
+                        <li>I <span class="love">love</span> your warmth.</li>
+                        <li>I <span class="love">love</span> your kindness.</li>
+                        <li>
+                            I <span class="love">love</span> your sense of
+                            style.
+                        </li>
+                        <li>I <span class="love">love</span> your patience.</li>
+                        <li>I <span class="love">love</span> your ambition.</li>
+                        <li>
+                            I <span class="love">love</span> your dreams and
+                            aspirations.
+                        </li>
+                        <li>
+                            I <span class="love">love</span> your grace under
+                            pressure.
+                        </li>
+                        <li>
+                            I <span class="love">love</span> your independence.
+                        </li>
+                        <li>
+                            I <span class="love">love</span> your affectionate
+                            nature.
+                        </li>
+                        <li>
+                            I <span class="love">love</span> your positive
+                            outlook.
+                        </li>
+                        <li>
+                            I <span class="love">love</span> your sense of
+                            adventure.
+                        </li>
+                        <li>
+                            I <span class="love">love</span> your understanding
+                            heart.
+                        </li>
+                        <li>
+                            I <span class="love">love</span> your respect for
+                            others.
+                        </li>
+                        <li>
+                            I <span class="love">love</span> your encouraging
+                            words.
+                        </li>
+                        <li>
+                            I <span class="love">love</span> your gentle touch.
+                        </li>
+                        <li>
+                            I <span class="love">love</span> your enthusiasm.
+                        </li>
+                        <li>
+                            I <span class="love">love</span> your attention to
+                            detail.
+                        </li>
+                        <li>
+                            I <span class="love">love</span> your openness to
+                            new experiences.
+                        </li>
+                        <li>I <span class="love">love</span> your empathy.</li>
+                        <li>I <span class="love">love</span> your strength.</li>
+                        <li>
+                            I <span class="love">love</span> your loyalty to
+                            friends and family.
+                        </li>
+                        <li>I <span class="love">love</span> your lips</li>
+                        <li>
+                            I <span class="love">love</span> your ability to
+                            make me laugh.
+                        </li>
+                        <li>
+                            I <span class="love">love</span> your dedication to
+                            our relationship.
+                        </li>
+                        <li>
+                            I <span class="love">love</span> your personal
+                            growth.
+                        </li>
+                        <li>
+                            I <span class="love">love</span> your stories and
+                            experiences.
+                        </li>
+                        <li>
+                            I <span class="love">love</span> your thoughtful
+                            gifts.
+                        </li>
+                        <li>
+                            I <span class="love">love</span> your sweet
+                            messages.
+                        </li>
+                        <li>
+                            I <span class="love">love</span> your unwavering
+                            belief in us.
+                        </li>
+                        <li>
+                            I <span class="love">love</span> your
+                            accomplishments.
+                        </li>
+                        <li>I <span class="love">love</span> your failures.</li>
+                        <li>I <span class="love">love</span> your eyes.</li>
+                        <li>I <span class="love">love</span> your beauty.</li>
+                        <li>
+                            I <span class="love">love</span> your handwriting
+                        </li>
+                        <li>
+                            I <span class="love">love</span> the way you help
+                            me.
+                        </li>
+                        <li>
+                            I <span class="love">love</span> you on your happy
+                            days.
+                        </li>
+                        <li>
+                            I <span class="love">love</span> you on your sad
+                            days.
+                        </li>
+                        <li>
+                            I <span class="love">love</span> you on the days you
+                            feel lonely.
+                        </li>
+                        <li>
+                            I <span class="love">love</span> you on the days you
+                            feel helpless.
+                        </li>
+                        <li>
+                            I <span class="love">love</span> you on the days you
+                            feel like no one cares.
+                        </li>
+                        <li>
+                            I <span class="love">love</span> you on the days you
+                            feel forgotten.
+                        </li>
+                        <li>
+                            I <span class="love">love</span> you on the days you
+                            feel unmotivated.
+                        </li>
+                        <li>
+                            I <span class="love">love</span> you on the days you
+                            feel <span class="love">love</span>d.
+                        </li>
+                        <li>
+                            I <span class="love">love</span> you on the days you
+                            feel sick.
+                        </li>
+                        <li>
+                            I <span class="love">love</span> you on the days you
+                            feel motivated.
+                        </li>
+                        <li>
+                            I <span class="love">love</span> you on the days you
+                            feel depressed.
+                        </li>
+                        <li>
+                            I <span class="love">love</span> you on the days you
+                            feel stressed.
+                        </li>
+                        <li>
+                            I <span class="love">love</span> you on the days you
+                            feel crazy.
+                        </li>
+                        <li>
+                            I <span class="love">love</span> you on the days you
+                            feel hopeful.
+                        </li>
+                        <li>
+                            I <span class="love">love</span> you on the days you
+                            feel cuddly.
+                        </li>
+                        <li>
+                            I <span class="love">love</span> you on the days you
+                            feel clingy.
+                        </li>
+                        <li>
+                            I <span class="love">love</span> you on the days you
+                            feel amazing.
+                        </li>
+                        <li>
+                            I <span class="love">love</span> you on the days you
+                            feel beautiful.
+                        </li>
+                        <li>
+                            I <span class="love">love</span> you on the days you
+                            feel like a failure.
+                        </li>
+                        <li>
+                            I <span class="love">love</span> you on the days you
+                            feel angry.
+                        </li>
+                        <li>
+                            I <span class="love">love</span> you on the days you
+                            feel aggressive.
+                        </li>
+                        <li>
+                            I <span class="love">love</span> you on the days you
+                            feel horrible.
+                        </li>
+                        <li>
+                            I <span class="love">love</span> you on the days you
+                            feel safe.
+                        </li>
+                        <li>
+                            I <span class="love">love</span> you on the days you
+                            feel unsafe.
+                        </li>
+                        <li>
+                            I <span class="love">love</span> you on the days you
+                            feel vulnerable.
+                        </li>
+                        <li>
+                            I <span class="love">love</span> you on the days you
+                            feel weird.
+                        </li>
+                        <li>
+                            I <span class="love">love</span> you on the days you
+                            feel okay.
+                        </li>
+                        <li>
+                            I <span class="love">love</span> you when you're
+                            healthy.
+                        </li>
+                        <li>I <span class="love">love</span> how your voice</li>
+                        <li>
+                            I <span class="love">love</span> your taste in
+                            music.
+                        </li>
+                        <li>
+                            I <span class="love">love</span> your taste in
+                            movies.
+                        </li>
+                        <li>
+                            I <span class="love">love</span> your taste in TV
+                            shows.
+                        </li>
+                        <li>
+                            I <span class="love">love</span> the way you move.
+                        </li>
+                        <li>
+                            I <span class="love">love</span> the way you act.
+                        </li>
+                        <li>
+                            I <span class="love">love</span> you when you cry.
+                        </li>
+                        <li>
+                            I <span class="love">love</span> you when you're
+                            kind.
+                        </li>
+                        <li>
+                            I <span class="love">love</span> you when you're
+                            mean.
+                        </li>
+                        <li>
+                            I <span class="love">love</span> you when you're
+                            alone.
+                        </li>
+                        <li>
+                            I <span class="love">love</span> you when you can't
+                            feel.
+                        </li>
+                        <li>
+                            I <span class="love">love</span> you when you feel
+                            too much.
+                        </li>
+                        <li>
+                            I <span class="love">love</span> you when you can't
+                            take life anymore.
+                        </li>
+                        <li>
+                            I <span class="love">love</span> you when you feel
+                            like it's too much.
+                        </li>
+                        <li>
+                            I <span class="love">love</span> you when you're
+                            asleep.
+                        </li>
+                        <li>
+                            I <span class="love">love</span> you when you have
+                            nightmares.
+                        </li>
+                        <li>
+                            I <span class="love">love</span> you when you have
+                            dreams.
+                        </li>
+                        <li>
+                            I <span class="love">love</span> how you believe.
+                        </li>
+                        <li>
+                            I <span class="love">love</span> you when you
+                            believe in yourself.
+                        </li>
+                        <li>
+                            I <span class="love">love</span> you when you don't
+                            believe in yourself.
+                        </li>
+                        <li>
+                            I <span class="love">love</span> you when you hate
+                            yourself.
+                        </li>
+                        <li>
+                            I <span class="love">love</span> you when you
+                            <span class="love">love</span> yourself.
+                        </li>
+                        <li>
+                            I <span class="love">love</span> the way you think.
+                        </li>
+                        <li>I <span class="love">love</span> your problems.</li>
+                        <li>
+                            I <span class="love">love</span> your solutions.
+                        </li>
+                        <li>
+                            I <span class="love">love</span> how you support.
+                        </li>
+                        <li>
+                            I <span class="love">love</span> you when you're in
+                            pain.
+                        </li>
+                        <li>
+                            I <span class="love">love</span> you when you're
+                            hurt.
+                        </li>
+                        <li>I <span class="love">love</span> your promises.</li>
+                        <li>I <span class="love">love</span> your secrets.</li>
+                        <li>I <span class="love">love</span> your attitude.</li>
+                        <li>I <span class="love">love</span> your sass.</li>
+                        <li>
+                            I <span class="love">love</span> your creativity.
+                        </li>
+                        <li>
+                            I <span class="love">love</span> your soft voice
+                        </li>
+                        <li>
+                            I <span class="love">love</span> your hand gestures.
+                        </li>
+                        <li>I <span class="love">love</span> your stories.</li>
+                        <li>I <span class="love">love</span> your wounds.</li>
+                        <li>I <span class="love">love</span> your scars.</li>
+                        <li>I <span class="love">love</span> your face.</li>
+                        <li>I <span class="love">love</span> your past.</li>
+                        <li>I <span class="love">love</span> your future.</li>
+                        <li>I <span class="love">love</span> your present.</li>
+                        <li>I <span class="love">love</span> your outfits.</li>
+                        <li>I <span class="love">love</span> your style.</li>
+                        <li>I <span class="love">love</span> your art.</li>
+                        <li>I <span class="love">love</span> your honesty.</li>
+                        <li>
+                            I <span class="love">love</span> you when you lie.
+                        </li>
+                        <li>
+                            I <span class="love">love</span> you when you're
+                            tired.
+                        </li>
+                        <li>
+                            I <span class="love">love</span> you when you're
+                            energetic.
+                        </li>
+                        <li>I <span class="love">love</span> how you look.</li>
+                        <li>I <span class="love">love</span> how you cook.</li>
+                        <li>
+                            I <span class="love">love</span> you when you're
+                            adventurous.
+                        </li>
+                        <li>
+                            I <span class="love">love</span> you when you're
+                            scared.
+                        </li>
+                        <li>
+                            I <span class="love">love</span> your imperfections.
+                        </li>
+                        <li>
+                            I <span class="love">love</span> your perfections.
+                        </li>
+                        <li>
+                            I <span class="love">love</span> you when you worry.
+                        </li>
+                        <li>
+                            I <span class="love">love</span> you when you talk.
+                        </li>
+                        <li>I <span class="love">love</span> your opinions.</li>
+                        <li>
+                            I <span class="love">love</span> you when you have a
+                            headache.
+                        </li>
+                        <li>
+                            I <span class="love">love</span> you when you have a
+                            stomach ache.
+                        </li>
+                        <li>
+                            I <span class="love">love</span> you when you help
+                            others.
+                        </li>
+                        <li>
+                            I <span class="love">love</span> you when you need
+                            help.
+                        </li>
+                        <li>
+                            I <span class="love">love</span> you when you're
+                            mature.
+                        </li>
+                        <li>
+                            I <span class="love">love</span> you when you're
+                            immature
+                        </li>
+                        <li>
+                            I <span class="love">love</span> you in the hard
+                            times
+                        </li>
+                        <li>
+                            I <span class="love">love</span> you in the easy
+                            times
+                        </li>
+                        <li>
+                            I <span class="love">love</span> you when life is
+                            meh
+                        </li>
+                        <li>
+                            I <span class="love">love</span> you when you're
+                            responsible
+                        </li>
+                        <li>
+                            I <span class="love">love</span> you when you're
+                            irresponsible
+                        </li>
+                        <li>
+                            I <span class="love">love</span> you when you fight
+                        </li>
+                        <li>
+                            I <span class="love">love</span> you in your darkest
+                            moments
+                        </li>
+                        <li>
+                            I <span class="love">love</span> you in your
+                            brightest moments
+                        </li>
+                        <li>I <span class="love">love</span> your heart</li>
+                        <li>I <span class="love">love</span> you in the day</li>
+                        <li>
+                            I <span class="love">love</span> you in the night
+                        </li>
+                        <li>
+                            I <span class="love">love</span> you at midnight
+                        </li>
+                        <li>I <span class="love">love</span> you at 3 am</li>
+                        <li>
+                            I <span class="love">love</span> you at all times
+                        </li>
+                        <li>
+                            I <span class="love">love</span> you at your best
+                        </li>
+                        <li>
+                            I <span class="love">love</span> you at your worst
+                        </li>
+                        <li>
+                            I <span class="love">love</span> the little things
+                            you do
+                        </li>
+                        <li>I <span class="love">love</span> all of you</li>
+                        <li>
+                            I <span class="love">love</span> you when you're you
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <!-- // MY MESSAGE TO YOU SECTION  -->
+            <section class="messageSection">
+                <h1 class="messageHeading">My Message To You</h1>
+                <div class="messageContainer">
+                    <div class="messagePicture">
+                        <div class="dashed">
+                            <img
+                                src="img/eyetrend.jpg"
+                                alt="Eyes"
+                                title="Eyes"
+                                class="eyesPicture"
+                            />
+                        </div>
+                        <img
+                            src="img/hello-kitty.png"
+                            alt="hello kitty"
+                            title="hello kitty"
+                            class="helloKittyMsgPicture"
+                        />
+                        <img
+                            src="img/heart_1176380.png"
+                            alt="heart"
+                            class="heartMsgPicture"
+                            title="heart"
+                        />
+                    </div>
+                    <div class="messageText">
+                        <p class="messageText-h">🌺 My Dearest Love, 🌸</p>
+                        <p class="messageText-p">
+                            As I sit down to write this message, my heart
+                            overflows with emotions that words can barely
+                            capture. Despite the miles that separate us, Our
+                            connection transcends distance, making me realize
+                            how truly special and unique our bond is. Every
+                            laugh we share, every deep conversation, and every
+                            moment we spend together, no matter how virtual,
+                            brings me immense joy and a sense of fulfillment
+                            that I never thought possible.
+                        </p>
+                        <p class="messageText-p">
+                            Our relationship has faced its fair share of
+                            challenges, but through it all, we've emerged
+                            stronger and more in love. I cherish every aspect of
+                            our relationship, from the sweet good morning texts
+                            to the late-night talks where we bare our souls to
+                            each other. Your presence in my life has been a
+                            constant source of strength and inspiration, and I
+                            wouldn't trade it for anything in the world.
+                        </p>
+                        <p class="messageText-p">
+                            There are moments when doubts and fears creep in,
+                            moments when I worry about being accepted by your
+                            family and about the uncertainties that the future
+                            holds. These thoughts sometimes weigh heavily on my
+                            heart, but they also remind me of how deeply I care
+                            for you and how much I want to spend my entire life
+                            with you. I want you to know that no matter what
+                            obstacles we face, my love for you will remain
+                            unwavering.
+                        </p>
+                        <p class="messageText-p">
+                            I don't ever want you to leave me. I can't imagine a
+                            future without you in it. Let's promise each other
+                            that we'll stay strong, that we'll fight for our
+                            love, and that we'll always remember that it's "us
+                            vs the problem," not "you vs me." Together, we can
+                            overcome anything that comes our way.
+                        </p>
+                        <p class="messageText-p">
+                            I want you to love me the way I love you, to make me
+                            feel special, and to remind me that all our
+                            struggles are worth it. I need you to be my strength
+                            in my weakest moments, just as I will be yours.
+                            Let’s hold onto each other and keep moving forward,
+                            knowing that in the end, everything will be alright.
+                        </p>
+                        <p class="messageText-p">
+                            But there is something I need from you, something
+                            that only you can give. I need you to make me feel
+                            special. I need to feel your love in a way that
+                            reminds me every day how much I mean to you. Your
+                            words, your actions, your presence – they all have
+                            the power to make my heart soar.
+                        </p>
+                        <p class="messageText-p">
+                            I want to spend my whole life with you, building a
+                            future filled with love, laughter, and endless
+                            happiness. I dream of the day when we can finally be
+                            together, to hold you in my arms and share our lives
+                            without any barriers. Until that day comes, I need
+                            you to be my strength, to reassure me that our love
+                            is worth every struggle and sacrifice.
+                        </p>
+                        <p class="messageText-p">
+                            promise me that you will always be with me, no
+                            matter what challenges we face. Let’s continue to
+                            nurture our love, to support each other, and to hold
+                            on to the beautiful connection we share. Together,
+                            we can overcome anything that comes our way.
+                        </p>
+                        <p class="messageText-p">
+                            With all my heart, I love you more than words can
+                            express. Thank you for being the incredible person
+                            you are and for choosing to share your life with me.
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <!-- // Look At The Sky To Find You -->
+            <section class="sky-section">
+                <h1 class="skyHeading">Where i look for you</h1>
+                <!-- // Sky 1 -->
+                <div class="skycontainer">
+                    <div class="skyimgContainer">
+                        <div class="dashed skydashed">
+                            <img
+                                src="img/pinkcloud2.jpg"
+                                alt="pink sky"
+                                title="pink sky"
+                                class="skyimgOne"
+                            />
+                        </div>
+                        <img
+                            src="img/cloudface.png"
+                            alt="cute cloud"
+                            title="cute cloud"
+                            class="cloudfaceborder floatPostionTopRight"
+                        />
+                        <img
+                            src="img/cloud.png"
+                            alt="cute cloud"
+                            title="cute cloud"
+                            class="cloudborder floatPostionBottomLeft"
+                        />
+                    </div>
+                    <div class="poetryFirst">
+                        <p class="skypoetry">
+                            As stars peek through the fading light,
+                        </p>
+                        <p class="skypoetry">And night begins to rise,</p>
+                        <p class="skypoetry">
+                            I find my love, my guiding star,
+                        </p>
+                        <p class="skypoetry">In the pretty pink skies.</p>
+                    </div>
+                </div>
+                <!-- // Sky 2 -->
+                <div class="skycontainer">
+                    <div class="skyimgContainer">
+                        <div class="dashed skydashed">
+                            <img
+                                src="img/darkcloud2.jpg"
+                                alt="pink sky"
+                                title="pink sky"
+                                class="skyimgOne"
+                            />
+                        </div>
+                        <img
+                            src="img/cloudface.png"
+                            alt="cute cloud"
+                            title="cute cloud"
+                            class="cloudfaceborder floatPostionTopLeft"
+                        />
+                        <img
+                            src="img/cloud.png"
+                            alt="cute cloud"
+                            title="cute cloud"
+                            class="cloudborder floatPostionBottomRight"
+                        />
+                    </div>
+                    <div class="poetryFirst">
+                        <p class="skypoetry">In every whisper of the wind,</p>
+                        <p class="skypoetry">In every silent, starlit sigh,</p>
+                        <p class="skypoetry">
+                            I feel your presence close to me,
+                        </p>
+                        <p class="skypoetry">
+                            As I gaze into the dark blue sky.
+                        </p>
+                    </div>
+                </div>
+                <!-- // Sky 3 -->
+                <div class="skycontainer">
+                    <div class="skyimgContainer">
+                        <div class="dashed skydashed">
+                            <img
+                                src="img/pinkcloud.jpg"
+                                alt="pink sky"
+                                title="pink sky"
+                                class="skyimgOne"
+                            />
+                        </div>
+                        <img
+                            src="img/cloudface.png"
+                            alt="cute cloud"
+                            title="cute cloud"
+                            class="cloudfaceborder floatPostionTopRight"
+                        />
+                        <img
+                            src="img/cloud.png"
+                            alt="cute cloud"
+                            title="cute cloud"
+                            class="cloudborder floatPostionBottomLeft"
+                        />
+                    </div>
+                    <div class="poetryFirst">
+                        <p class="skypoetry">
+                            Each streak of pink a gentle brush,
+                        </p>
+                        <p class="skypoetry">That paints the heavens wide,</p>
+                        <p class="skypoetry">
+                            A canvas where my heart can roam,
+                        </p>
+                        <p class="skypoetry">And find you by my side.</p>
+                    </div>
+                </div>
+                <!-- // Sky 4 -->
+                <div class="skycontainer">
+                    <div class="skyimgContainer">
+                        <div class="dashed skydashed">
+                            <img
+                                src="img/darkcloud.jpg"
+                                alt="pink sky"
+                                title="pink sky"
+                                class="skyimgOne"
+                            />
+                        </div>
+                        <img
+                            src="img/cloudface.png"
+                            alt="cute cloud"
+                            title="cute cloud"
+                            class="cloudfaceborder floatPostionTopLeft"
+                        />
+                        <img
+                            src="img/cloud.png"
+                            alt="cute cloud"
+                            title="cute cloud"
+                            class="cloudborder floatPostionBottomRight"
+                        />
+                    </div>
+                    <div class="poetryFirst">
+                        <p class="skypoetry">
+                            So, as the night enfolds the world,
+                        </p>
+                        <p class="skypoetry">
+                            And daylight bids its soft goodbye,
+                        </p>
+                        <p class="skypoetry">I find my solace, find my love,</p>
+                        <p class="skypoetry">
+                            In the depths of the dark blue sky.
+                        </p>
+                        <p class="skypoetry lastskypoetry">
+                            In moonlight’s gentle, silvered glow,
+                        </p>
+                        <p class="skypoetry">
+                            There’s a name that sets my heart aglow,
+                        </p>
+                        <p class="skypoetry">
+                            Romane, the muse of love's sweet art,
+                        </p>
+                        <p class="skypoetry">
+                            The one who holds my cherished heart.
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <!-- // You And Me -->
+            <section class="youMe-section">
+                <h1 class="youMe-Heading">You & Me</h1>
+                <div class="youMe-Container">
+                    <div class="youMe-ImgContainer">
+                        <img
+                            src="img/couple.png"
+                            alt="cute-couple"
+                            title="cute couples"
+                            class="youMeImg"
+                        />
+                    </div>
+                    <div class="youMe-Para">
+                        <h1 class="youMe-h">
+                            💝 Happy International Girlfriend Day, my love! 🌷
+                        </h1>
+                        <p class="youMe-p">
+                            💌 Even though we don't get to talk as much as we'd
+                            like these days, I want you to know that with every
+                            passing moment, my heart is drawn closer to you. The
+                            distance between us might be vast, but it only makes
+                            our connection stronger and our bond deeper. 🌺
+                        </p>
+                        <p class="youMe-p">
+                            💗 Each day we inch closer to the moment when we can
+                            finally hold each other in our arms. I dream of that
+                            day constantly, imagining the warmth of your embrace
+                            and the joy of being physically together. Our love
+                            transcends the miles that separate us, and I cherish
+                            every word we share and every memory we create from
+                            afar. 💞
+                        </p>
+                        <p class="youMe-p">
+                            💖 You are my world, and even in silence, my heart
+                            speaks your name. The anticipation of our reunion
+                            keeps me going, and I believe that every challenge
+                            we face now will make our love story even more
+                            beautiful. 💮
+                        </p>
+                        <p class="youMe-p">
+                            💟 Thank you for being my rock, my confidant, and my
+                            best friend. I cherish every late-night
+                            conversation, every shared dream, and every loving
+                            word we exchange. You mean the world to me, and I
+                            can't wait until the day we can finally hold each
+                            other close. 🌸
+                        </p>
+                        <p class="youMe-p">
+                            🤍 Until then, know that you are always in my
+                            thoughts and that my love for you grows stronger
+                            with each passing day. I am so grateful to have you
+                            in my life, and I look forward to all the beautiful
+                            moments we will create together. 🖤
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <!-- // More To Come -->
+            <section class="more-section">
+                <h1 class="moreHeading">
+                    🍥 More Thing Will be here for you Soon.... 🎀
+                </h1>
+                <img
+                    src="img/funnyc.png"
+                    alt="cute-black-cat"
+                    title="cute black cat"
+                    class="moreCatImg"
+                />
+            </section>
+            <!-- // Footer -->
+            <footer class="footer">
+                <p class="footer-p">
+                    Created by haxnain , Copyright © 2024 . All rights are
+                    reserved
+                </p>
+            </footer>
+        </main>
+    </body>
+    <script src="index.js"></script>
+    <script
+        src="https://kit.fontawesome.com/22f6533c22.js"
+        crossorigin="anonymous"
+    ></script>
+</html>
